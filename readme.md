@@ -14,9 +14,9 @@ Deployed at: [priyobrotokar.github.io/youtube-video-listing](https://priyobrotok
 
 Video Listing
 
-![UI](https://raw.githubusercontent.com/PriyobrotoKar/youtube-video-listing/refs/heads/main/public/screenshot-ui.png)
+![UI](https://raw.githubusercontent.com/PriyobrotoKar/youtube-video-listing/refs/heads/main/public/screenshot-ui.jpeg)
 
 Search Page
 
-![Search](https://raw.githubusercontent.com/PriyobrotoKar/youtube-video-listing/refs/heads/main/public/screenshot-search.png)
+![Search](https://raw.githubusercontent.com/PriyobrotoKar/youtube-video-listing/refs/heads/main/public/screenshot-search.jpeg)
 
