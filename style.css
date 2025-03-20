@@ -33,6 +33,7 @@ header {
   padding: 0.5rem 2rem;
   z-index: 10;
   display: flex;
+  gap: 0.5rem;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 2rem;
@@ -58,6 +59,14 @@ button {
   border-radius: 99999px;
 }
 
+.logo {
+  display: block;
+}
+
+.logo-small {
+  display: none;
+}
+
 .search-box {
   max-width: 30rem;
   width: 100%;
@@ -69,6 +78,7 @@ button {
 }
 
 .search-box input {
+  min-width: 0;
   flex: 1;
   padding: 0.5rem;
   font-size: 1rem;
@@ -148,4 +158,26 @@ button {
   display: flex;
   flex-direction: column;
   gap: 0.25rem;
+}
+
+@media (max-width: 640px) {
+  header {
+    padding: 0.5rem 1rem;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .logo-small {
+    display: block;
+  }
+
+  .search-box {
+    max-width: 20rem;
+  }
+
+  .video-list-container {
+    padding: 0 1rem;
+  }
 }
