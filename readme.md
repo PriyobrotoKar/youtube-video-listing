@@ -11,9 +11,12 @@ Deployed at: [priyobrotokar.github.io/youtube-video-listing](https://priyobrotok
 - [x] Implement a grid layout for better UI.
 
 ### Screenshots
-Video Listing
-![UI]()
 
-Search
-![Search]()
+Video Listing
+
+![UI](https://raw.githubusercontent.com/PriyobrotoKar/youtube-video-listing/refs/heads/main/public/screenshot-ui.png)
+
+Search Page
+
+![Search](https://raw.githubusercontent.com/PriyobrotoKar/youtube-video-listing/refs/heads/main/public/screenshot-search.png)
 
