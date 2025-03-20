@@ -1,7 +1,7 @@
 # Youtube Video Listing
 This is a simple project that lists the videos from a youtube channel. It uses the [FreeApi.app](https://api.freeapi.app/api/v1/public/youtube/videos) to fetch the videos and display them in a grid similar to YouTube.
 
-Deployed at: [priyobrotokar.github.io/youtube-video-listing](https://priyobrotokar.github.io/youtube-video-listing)
+Deployed at [priyobrotokar.github.io/youtube-video-listing](https://priyobrotokar.github.io/youtube-video-listing)
 
 ### Features
 - [x] Fetch and display a list of YouTube videos.

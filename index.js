@@ -5,6 +5,7 @@ const searchInput = document.getElementById("search-input");
 const searchButton = document.getElementById("search-btn");
 
 let videos = [];
+let originalVideos = [];
 
 async function fetchVideos() {
   try {
@@ -69,11 +70,14 @@ function renderVideos() {
 
 searchButton.addEventListener("click", async () => {
   const searchQuery = searchInput.value.trim().toLowerCase();
+
   if (!searchQuery) {
+    videos = originalVideos;
+    renderVideos();
     return;
   }
 
-  const results = videos.filter(({ items }) =>
+  const results = originalVideos.filter(({ items }) =>
     items.snippet.title.toLowerCase().includes(searchQuery),
   );
 
@@ -84,6 +88,7 @@ searchButton.addEventListener("click", async () => {
 
 fetchVideos()
   .then((data) => {
+    originalVideos = data;
     videos = data;
     renderVideos();
   })
